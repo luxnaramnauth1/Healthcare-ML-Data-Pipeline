@@ -1,5 +1,9 @@
 # Healthcare ML Data Pipeline
 
+[![CI](https://github.com/YOUR_USERNAME/healthcare-ml-pipeline/actions/workflows/ci.yml/badge.svg)](https://github.com/YOUR_USERNAME/healthcare-ml-pipeline/actions/workflows/ci.yml)
+![Python](https://img.shields.io/badge/python-3.10%2B-blue)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 An end-to-end, tested and containerised data pipeline that turns raw clinical measurements into a validated, evaluated diagnostic model. It supports both **analytics** (data-quality reports, explainability charts) and **machine learning** (model selection, training, scoring), and it fails loudly when the data is bad.
 
 **Dataset:** Wisconsin Diagnostic Breast Cancer (569 patients, 30 tumour measurements from digitised biopsy images, UCI Machine Learning Repository). Built into scikit-learn, so the project runs offline with no downloads.
@@ -160,7 +164,3 @@ healthcare-ml-pipeline/
   Dockerfile  Makefile  pyproject.toml  pytest.ini
   requirements.txt  requirements-dev.txt
 ```
-
-## License
-
-MIT
